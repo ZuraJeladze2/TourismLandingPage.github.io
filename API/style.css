@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-flow: row wrap;
+    padding: 50px;
+}
+.root > .card {
+    position: relative;
+    box-shadow: 0 0 35px -5px;
+    min-width: 200px;
+    height: 450px;
+}
+.root > .card button {
+    position: absolute;
+    bottom: 20px;
+
+}
+.root .card-title {
+    max-height: 1.3em;
+    overflow: hidden;
+}
+.root .img-wrapper {
+    overflow: hidden;
+    height: 200px;
+}
+.root img {
+    height: 100%;
+    object-fit: cover;
+    transition: scale 500ms ease-out;
+}
+.root img:hover {
+    scale: 1.1;
+}
+.root p.card-text {
+    height: 100px;
+    overflow: hidden;
+}
+.sidebar {
+    margin-top: 10px;
+    width: 98vw;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    z-index: 2;
+}
+.sidebar > button.btn-secondary {
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+.offcanvas.offcanvas-start {
+    width: 500px;
+}
+.offcanvas-body {
+    height: 100%;
+    scroll-margin: 50px;
+    overflow-x: hidden;
+}
+.sidebar table img {
+    width: 100px;
+}
+.offcanvas-title {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
