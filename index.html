@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- facebook meta tags -->
+  <meta property="og:title" content="Tourism" />
+  <meta property="og:description" content="Some description of a tourism page" />
+  <meta property="og:image" content="URL to the image you want to use as a thumbnail" />
+  <meta property="og:url" content="URL" />
+  <meta property="og:type" content="website" />
+  <!-- google meta tags -->
+  <meta name="description" content="Some description of a tourism page" />
+  <meta name="keywords" content="tourism, travel" />
+  <meta name="author" content="Zura Jeladze" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Tourism landing page</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-title"><a href="#"><img src="./assets/images/navbar-image/logo.png" alt="Tourism"></a></div>
+      <div class="navbar-links">
+        <a href="#">home</a>
+        <a href="#about-us">about us</a>
+        <a href="#our-services">our services</a>
+        <a href="#tour-package">tour package</a>
+        <a href="API/api.html">api</a>
+      </div>
+      <span class="burger icons">☰</span>
+    </nav>
+    
+    <div class="sidebar">
+      <div class="sidebar-btn-wrapper">
+        <span class="sidebar-btn icons">&times;</span>
+      </div>
+      <div class="sidebar-body">
+        <div class="a-wrapper">
+          <a href="#">home</a>
+        </div>
+        <div class="a-wrapper">
+          <a href="#about-us">about us</a>
+        </div>
+        <div class="a-wrapper">
+          <a href="#our-services">our services</a>
+        </div>
+        <div class="a-wrapper">
+          <a href="#tour-package">tour package</a>
+        </div>
+        <div class="a-wrapper">
+          <a href="API/api.html">api</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="modal-wrapper">
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <img src="" alt="">
+      </div>
+      <div class="modal-body">
+        <div class="mb-title"></div>
+        <div class="mb-description"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- //carousel -->
+
+  <div class="carousel row-justify-center"></div>
+
+  <section class="container row" style="gap: 100px;" id="our-services">
+
+    <!-- //discover our hot services -->
+
+    <div class="text-card" >
+      <h3 class="secondary-color">discover</h3>
+      <h2>our hot services</h2>
+      <div class="text-body">
+        <p class="secondary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cupiditate obcaecati
+          ratione adipisci.</p>
+      </div>
+    </div>
+
+
+    <div class="services-cards-wrapper row-justify-center">
+      <!-- //cardebi JavaScriptidan -->
+    </div>
+
+  </section>
+
+  <!-- //video Youtube-dan -->
+
+  <section class="column-justify-center video-tour">
+    <div class="video-tour-headers" style="position: relative;">
+      <h3>discover</h3>
+      <h2 class="underline-white">watch our video tour</h2>
+
+    </div>
+    <iframe width="650" height="345" src="https://www.youtube.com/embed/J_4leOeH9Lc" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </section>
+
+  <!-- //iconebiani statistikebi -->
+
+  <section class="container row" style="border-bottom: 1px solid gray;">
+    <div class="statistics row-justify-center">
+      <div class="stat">
+        <img src="assets/images/statistics illustrations/star-with-sunglasses-clipart-4.png" alt="Star icon">
+        <h2>120,859</h2>
+        <h3>happy travellers</h3>
+      </div>
+
+      <div class="stat">
+        <img src="assets/images/statistics illustrations/eiffel.png" alt="Eiffel tower icon">
+        <h2>2594</h2>
+        <h3>satisfied tours</h3>
+      </div>
+
+      <div class="stat">
+        <img src="assets/images/statistics illustrations/globe.png" alt="Globe icon">
+        <h2>854</h2>
+        <h3>destination</h3>
+      </div>
+
+      <div class="stat">
+        <img src="assets/images/statistics illustrations/city.png" alt="Apartament icon">
+        <h2>987</h2>
+        <h3>hotels & resorts</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- // turebi -->
+
+  <section class="column-justify-center" style="margin-bottom: 50px;" id="tour-package">
+    <h3 class="secondary-color" style="margin-top: 70px;">
+      we offer
+    </h3>
+    <h2>popular tour package</h2>
+
+    <div class="tour-packages row-justify-center">
+      <div class="tour-package-card">
+        <img src="./assets/images/tour package images/greece.jfif" alt="Greece">
+        <div class="tour-package-price">$299/person</div>
+        <h3 class="tour-package-name">blue beauty of greece</h3>
+        <div class="tour-package-time">5 days / 6 nights</div>
+      </div>
+
+      <div class="tour-package-card">
+        <img src="./assets/images/tour package images/cliff.jfif" alt="Phuket">
+        <div class="tour-package-price">$178/person</div>
+        <h3 class="tour-package-name">nature of phuket</h3>
+        <div class="tour-package-time">3 days / 4 nights</div>
+      </div>
+
+      <div class="tour-package-card">
+        <img src="./assets/images/tour package images/eiffel.jpg" alt="Paris">
+        <div class="tour-package-price">$1111/person</div>
+        <h3 class="tour-package-name">world tour of paris</h3>
+        <div class="tour-package-time">7 days / 8 nights</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- //email input  -->
+  <section class="column-justify-center" id="section-form">
+    <h2 style="font-size: 2em;">get 10% off on your next travel</h2>
+    <h3>maximum discount $1000 per person</h3>
+    <form action="" style="margin-top: 50px;" class="email-form">
+      <input type="email" name="email" class="input-email" id="email-validation" placeholder="Enter your E-mail">
+      <!-- <input type="submit" value="SUBSCRIBE" class="btn-submit"> -->
+      <button type="submit" class="btn-submit" id="submit">SUBSCRIBE</button>
+    </form>
+  </section>
+
+  <!-- //happy travelers -->
+  <section class="column-justify-center container" style="padding-bottom: 50px;">
+    <h3 class="secondary-color">our smiles</h3>
+    <h2>happy travelers</h2>
+    <div class="traveler-cards row-justify-center">
+      <div class="traveler-card">
+        <div class="traveler-card-header">
+          <img src="assets/images/happy travelers/boy.jfif" alt="Our happy traveler">
+          <h4>John Smith</h4>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio quaerat laborum perferendis minima </p>
+      </div>
+
+      <div class="traveler-card">
+        <div class="traveler-card-header">
+          <img src="assets/images/happy travelers/boy2.webp" alt="Our happy traveler">
+          <h4>Thomas White</h4>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio quaerat laborum perferendis minima </p>
+      </div>
+
+      <div class="traveler-card">
+        <div class="traveler-card-header">
+          <img src="assets/images/happy travelers/boy3.webp" alt="Our happy traveler">
+          <h4>Sam Wilson</h4>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio quaerat laborum perferendis minima </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- //book now -->
+  <section class="column-justify-center" id="plan-trip">
+    <h2>ready to plan your trip?</h2>
+    <button class="button">book now</button>
+  </section>
+
+  <!-- //popular tour pacakges -->
+  <section class="column-justify-center" style="margin-top: 70px;">
+    <h3>destination</h3>
+    <h2>popular tourism countries</h2>
+
+    <div class="popular-tour-cards row-justify-center">
+
+      <div class="popular-tour-card">
+        <img src="assets/images/popular-tours/thailand-mountains.jpg" alt="Thailand">
+        <div class="popular-tour-card-info">
+          <h2>Thailand</h2>
+          <h5>$900-$1900</h5>
+          <div class="arrow-wrapper">
+            <button class="button arrow">&#10140;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="popular-tour-card">
+        <img src="assets/images/popular-tours/pisa-towers.jpg" alt="Italy">
+        <div class="popular-tour-card-info">
+          <h2>Italy</h2>
+          <h5>$900-$1900</h5>
+          <div class="arrow-wrapper">
+            <button class="button arrow">&#10140;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="popular-tour-card">
+        <img src="assets/images/popular-tours/indonesia.jpg" alt="Indonesia">
+        <div class="popular-tour-card-info">
+          <h2>Indonesia</h2>
+          <h5>$900-$1900</h5>
+          <div class="arrow-wrapper">
+            <button class="button arrow">&#10140;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="popular-tour-card">
+        <img src="assets/images/popular-tours/singapore.jfif" alt="Singapore">
+        <div class="popular-tour-card-info">
+          <h2>Singapore</h2>
+          <h5>$900-$1900</h5>
+          <div class="arrow-wrapper">
+            <button class="button arrow">&#10140;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- //map -->
+  <section>
+    <div class="map-wrapper">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5651.821634604465!2d-118.33856498551239!3d34.11184461821653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf1bc1270933%3A0x6a6f62cf3836e2fd!2sHollywood%20Bowl!5e1!3m2!1sen!2sge!4v1683118177127!5m2!1sen!2sge"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        class="map"></iframe>
+    </div>
+  </section>
+
+
+  <footer class="row-justify-center" style="background-color: #141418; padding-top: 40px;">
+    <div class="flex_justify-start" style="width: 800px; color: #fff;">
+      <div class="footer-item">
+        <h3>quick links</h3>
+        <h5 class="secondary-color">Home</h5>
+        <h5 class="secondary-color">About Company</h5>
+        <h5 class="secondary-color">Testimonials</h5>
+        <h5 class="secondary-color">Infrastructure</h5>
+      </div>
+
+
+      <div class="footer-item">
+        <h3>Support</h3>
+        <h5 class="secondary-color">Get Started</h5>
+        <h5 class="secondary-color">Lorem</h5>
+        <h5 class="secondary-color">Help</h5>
+        <h5 class="secondary-color">Ipsum</h5>
+      </div>
+
+      <div class="footer-item">
+        <h3>Address</h3>
+        <h5 class="secondary-color">14, 1 Ellis bridge ST.</h5>
+        <h5 class="secondary-color">auckland 3500. Australia</h5>
+        <h5 class="secondary-color">+123456789</h5>
+        <h5 class="secondary-color">contact@gmail.com</h5>
+      </div>
+    </div>
+
+    <div class="subscribe">
+      <h5>Subscribe to our newsletter</h5>
+      <div class="input-wrapper">
+        <input type="text" id="text" placeholder="Your email">
+        <i class="fa-solid fa-envelope fa-lg"></i>
+      </div>
+    </div>
+    <div class="copy">
+    Tourism &copy All Rights Reserved
+    </div>
+  </footer>
+
+  <script src="./sidebar/app.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
