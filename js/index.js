@@ -53,7 +53,7 @@ const cardArray /*s1 == section 1 */ = [
   {
     title: 'hotel & resort booking',
     description: 'some description about flight booking. some description about flight booking.',
-    img: 'https://www.bing.com/images/blob?bcid=RO1siLbFiIgF0QLQairNEUdJ--45.....wI'
+    img: '../assets/images/card-images/hotel.jfif'
   },
   {
     title: 'family trip planner',
